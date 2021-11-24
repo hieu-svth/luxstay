@@ -1,0 +1,199 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .drag-drop {
+        overflow: auto;
+    }
+    .app {
+        overflow: hidden;
+    }
+    .modal-icon {
+        display: block;
+    }
+    .down-line {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .header-search__location::after {
+        display: none;
+    }
+    .header-icon-list {
+        display: block;
+    }
+    .header-icon-list {
+        font-size: 2rem;
+        padding: 3rem;
+    }
+    .header {
+        height: 80px;
+    }
+    .sliders {
+        margin: 10rem auto 5rem auto;
+    }
+    .modal {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 999;
+        display: none;
+    }
+    .modal-icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 1.9rem;
+        font-weight: 400;
+        padding: 1rem;
+    }
+    .header-menu {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        background-color: white;
+        width: 30rem;
+        z-index: 9999;
+        height: 100%;
+        animation: showMenu ease-in-out 0.4s;
+    }
+    @keyframes showMenu {
+        from {
+            transform: translateX(-30rem);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    .header-list {
+        display: flex;
+        flex-direction: column;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0;
+        width: 100%;
+        margin: 3rem 0;
+    }
+    .header-item {
+        padding: 1rem;
+        margin: 0;
+        font-size: 1.7rem;
+        font-weight: 500;
+        line-height: 3.5rem;
+        width: 100%;
+    }
+    .header-item:nth-child(2) {
+        font-size: 1.7rem;
+        line-height: 2rem;
+        font-weight: 600;
+        padding: 1rem 1.8rem;
+    }
+    .popover {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        min-width: 100%;
+        bottom: -29rem;
+    }
+    .popover-money {
+        align-items: flex-start;
+        width: 100%;
+    }
+    .content-introduce__item,
+    .popular-languages-wrap {
+        width: 100%;
+    }
+    .popular-languages-wrap::after {
+        display: none;
+    }
+    .popover-money span {
+        padding: 4px 14px;
+    }
+    .content-wrapper__btn {
+        top: 10rem;
+    }
+
+    .content-introduce {
+        display: flex;
+        flex-direction: column;
+    }
+    .content-introduce-dowload {
+        margin: 3rem 0;
+    }
+    .footer-item {
+        margin-top: 4rem;
+    }
+    .content-wrapper-place {
+        margin-top: 3rem;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .drag-drop-tablet {
+        overflow: auto;
+    }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+    .drag-drop-mobile {
+        overflow: auto;
+    }
+    .header {
+        padding: 0;
+    }
+
+    .content__welcome-title {
+        line-height: 3rem;
+    }
+    .content-wrapper__description {
+        line-height: 2.4rem;
+        margin-top: 1rem;
+    }
+    .content-wrapper-place {
+        margin-top: 2rem;
+    }
+    .content-introduce__item svg {
+        width: 16rem;
+    }
+    .content-introduce__title {
+        font-size: 2.2rem;
+        margin: 3rem 0 2rem 0;
+    }
+    .content-introduce__application img {
+        margin-top: 1.5rem;
+    }
+    .footer-widget-wrap {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-widget-wrap__img {
+        width: 50%;
+    }
+    .footer-widget-wrap__content:nth-child(2) .footer-widget-wrap__img {
+        width: 45%;
+        height: auto;
+    }
+    .footer-widget-wrap__content {
+        margin-top: 2rem;
+    }
+    .footer-pagination__content {
+        padding: 0 2rem;
+    }
+}
